@@ -1,0 +1,274 @@
+  
+
+
+/*
+Reset
+*/
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+       body {
+            background-color: darkred;
+           color: #fff;
+            font-family: Arial;
+        }
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+       
+        img {
+            width: 100%;
+        }
+        h1 {
+
+            color: aliceblue;
+            padding-top: 40pt;
+        }
+        
+        h2 {
+            font-size: 1em;
+            color: aliceblue;
+        }
+        h4 {font-size: 1em;
+            color: aliceblue;
+        }
+            font-size: 1em;
+            color: aliceblue;
+           
+
+        ul {
+            
+                list-style-type: none;
+                margin-left: 0px;
+                padding-top: 20px;
+            }
+
+        
+        hr {
+            border-color: a;
+        }
+             
+        header {
+            
+        }
+        
+        main {
+            width: 100%;
+            padding-top: 50px;
+        }
+        
+        footer {
+            
+            font-size: 15pt;
+            clear: both; 
+        }
+        
+        body.my-index .col1,
+        body.my-index .col2,
+        body.my-index .col3 {
+            width: 30%;
+        }
+
+
+        body.my-content-page .col1 {
+            width: 15%;
+        }
+
+        body.my-content-page .col2 {
+            width: 30%;
+        }
+
+        body.my-content-page .col3 {
+            width: 30%;
+        }
+
+        body.my-skills .col1 {
+            width: 15%;
+        }
+
+        body.my-skills .col2 {
+            width: 35%;
+        }
+
+        body.my-skills .col3 {
+            width: 30%;
+        }
+ 
+.col2 {
+    height: 400px;
+}
+        .col1,
+        .col2,
+        .col3 {
+            float: left;
+            margin-right: 2.5%;
+        }
+        
+        .col1 {
+            margin-left: 2.5%;
+        }
+        
+        .col3 {
+             
+            
+        }
+        
+         @media (max-width: 960px) {
+            
+             h2 {
+                 font-size: 1.1em;
+             } 
+
+            
+        }
+        
+        nav li {
+            float: left;
+            margin-right: 50px;
+            padding: 3px;
+            color: aliceblue;
+            font-size: 18px;
+                        
+        }
+        
+                 @media (max-width: 705px) {
+            
+             h2 {
+                 font-size: 0.9em;
+             } 
+
+            
+        }
+        
+        nav {
+
+            width: 33.3%;
+            margin-left: 35%;
+            text-align: center;
+        }
+        
+        
+        @media (max-width: 600px) {
+            
+                         h2 {
+                 font-size: 1.5em;
+             } 
+            
+                                .col1 {
+            margin-left: 0;
+        }
+            
+            .content-module {
+            width: 95%;
+            float: left;
+            margin-left: 2.5%;
+        }
+            
+
+            
+        }
+        
+body {
+            background-color: darkred;
+            font-family: Arial;
+            }
+    
+
+        
+        h2 {
+            font-size: 14pt;
+            padding-top: 30px;
+            color: aliceblue;
+            
+        }
+        
+        .text
+        {
+            width: 40%;
+            text-align: center;
+           
+        }
+
+    body.my-index .img img {
+            width: 100%;
+        }
+        
+    body.my-about .img img {
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+
+            
+        }
+        
+    .myabout {
+        font-size: 14pt;
+    
+    
+}
+
+/*
+Layout
+*/
+
+        h1 {
+
+            text-align: center;
+        }
+h2 {
+   padding-bottom: 0.5em;
+}
+
+.content-module ul {
+    margin-bottom: 2em;
+}
+
+
+/*
+Typography
+*/
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.content-module ul {
+    font-size: 2em;
+    line-height: 1.3em;
+}
+}
+
+
+
+
+.body-text {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+/*
+.col1 {
+    background-color: orange;
+}
+
+
+.col2 {
+    background-color: green;
+}
+
+*/
